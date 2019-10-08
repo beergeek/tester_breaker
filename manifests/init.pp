@@ -8,7 +8,7 @@ class tester_breaker {
 
   file { '/tmp/xyz':
     ensure  => file,
-    content => Binary('aGVsbG8=),
+    content => Binary('aGVsbG8='),
     mode    => '0400',
   }
 }
