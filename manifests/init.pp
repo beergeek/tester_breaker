@@ -10,6 +10,5 @@ class tester_breaker {
     ensure  => file,
     content => Binary('O5jXGG0M7SmoXUJObZ/zSsqtis41JTDU'),
     mode    => '0400',
-    require => Package['mongodb_mms_pkg'],
   }
 }
